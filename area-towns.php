@@ -5,7 +5,7 @@ $serviceBodies_results = json_decode($serviceBodiesURL,true);
 $serviceBodies = array();
 
 foreach($serviceBodies_results as $subKey => $subArray){
-    if($subArray['name'] == 'New England Region'){
+    if($subArray['id'] == '1' || $subArray['id'] == '16' || $subArray['id'] == '17' || $subArray['id'] == '18') {
         unset($serviceBodies_results[$subKey]);
     }
 }
