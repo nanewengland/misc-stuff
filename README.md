@@ -27,6 +27,10 @@ Pass the service bodies seperated by comma ',' to this file as a querystring '?s
 
 This will get a KML file of all meetings in Service body 15 (Westen Mass) and Service body 12 (Pioneer Valley). It sets the wifht to 100% and asks google to only cache for 5 minutes.
 
+## File serviceBodies.php
+
+This sits in the nerna.org/nerna_scripts directory and feeds the contact list for the nerna apps. We use this to get by certain limitations of the BMLT api.
+
 ## File area-towns.php
 
 This is just a fun script I made to get a list of all unique towns served by each area
